@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Facebook App Id -->
+    <!-- <string name="appid">248320168625472</string>  -->
+    <!-- <string name="appid">269237513239583</string>  -->
+    <string name="appid">343308085822965</string>
+    
+    <!-- Twitter Keys -->
+    <string name = "twitter_consumer_key">ucAchgIBoUVjOT8Falj3PQEHt</string>
+	<string name= "twitter_consumer_secret">gdzoNUjhUNC5le8PHnOP5eR3PtzWDs5QTk7Lf6Z8Q6ExdfYXgN</string>
+	
+	 <string name="authentication_done_now_post_tweet_or_image_text"> Your app is authenticated. Now  you can post tweet/image on twitter. </string>
+	
+	 <!--Twitter loading messages -->
+    <string name="please_wait_title"> Please wait </string>
+    <string name="authenticating_your_app_message"> Authenticating your app </string>
+    <string name="posting_image_message"> Uploading image on twitter </string>
+    <string name="posting_tweet_message"> Posting tweet on twitter</string>
+    
+     <!--Twitter toast -->
+
+    <string name="image_posted_on_twitter"> Image posted on twitter successfully. </string>
+    <string name="tweet_posted_on_twitter"> Tweet posted on twitter successfully. </string>
+    <string name="tweet_posted_error"> Error occured while posting a tweet. </string>
+    <string name="tweet_with_image_text"> dummy tweet with image. </string>
+    <string name="tweet_text"> dummy tweet. </string>
+    
+    <!-- Personal Info Screen -->
+    <string name="app_name">SmokeTherapy</string>
+    <string name="action_settings">SETTINGS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="personal_info">PERSONAL INFO</string>
+    <string name="personal_info_one">PERSONAL INFO 1\//3</string>
+    <string name="personal_info_two">PERSONAL INFO 2\//3</string>
+    <string name="personal_info_three">PERSONAL INFO 3\//3</string>
+    <string name="selectgender">Select your gender</string>
+    <string name="male">MALE</string>
+    <string name="female">FEMALE</string>
+    <string name="sleep_instruction">*even if your sleeping schedule is messy please try to input the closest to your average sleep hours (per 24h) option!</string>
+    <string name="wakeup_instruction">*please enter the time you usually wake up in the morning. </string>
+    <string name="cont">CONTINUE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="avgsleeptime">Average sleep hours</string>
+    <string name="wakeuptimehint">pick up a time</string>
+    <string name="sleeptimehint">Enter sleep hours</string>
+    <string name="wake_up_time">Wake-up time</string>
+    <string name="hint_input_sleep_hour">Input your avg sleep hours</string>
+    <string name="hint_wakeup_time">- -</string>
+    <string name="colon">:</string>
+    <!-- <string name="sleeptime">SLEEP TIME &amp; WAKE UP TIME</string> -->
+
+
+    <!-- Terms and Condition Screen -->
+    <string name="termscondition">TERMS &amp; CONDITIONS</string>
+    <string name="agree">I AGREE</string>
+    <string name="notagree">I DO NOT AGREE</string>
+    <!-- Confirm Stage one entry screen -->
+    <string name="almost_there">&#8230;ALMOST THERE!</string>
+    <string name="iunderstood">I UNDERSTAND</string>
+    <!-- Stage One Screen -->
+
+    <string name="stage1">STAGE 1</string>
+    <string name="options">OPTIONS</string>
+    <string name="info">INFO</string>
+    <string name="begin">BEGIN STAGE 1</string>
+    <string name="prgress">PROGRESS BAR</string>
+    <string name="hold_down_text">(hold down for 2sec)</string>
+    <string name="stage_one_inst">It is highly recommended that you begin \"STAGE1\" within the following morning (usually your first cigarette for the day).</string>
+    <string name="smoke_inst">It is very important that you register every cigarette you smoke! You may experience difficulties if you don\'t do so!</string>
+    <string name="hold_inst">hold for 2sec \n to register a cigarette</string>
+    <string name="register_inst">to register a cigarette</string>
+    <string name="register_success_1">CIGARETTE REGISTERED</string>
+    <string name="register_success_2">SUCCESSFULLY</string>
+    <!-- Stage Two Screen -->
+    <string name="stage2">STAGE 2</string>
+    <string name="begin_s2">BEGIN STAGE 2</string>
+    <string name="S2_begin_inst">Once activated by you \"STAGE 2\" is designed to begin from the following \"wake-up hours\"</string>
+    <string name="statistics">STATISTICS</string>
+    <string name="compstat">COMPLETE STATISTICS</string>
+    <string name="withdraw_cigge">WITHDRAW CIGARETTE</string>
+    <!-- allow screen -->
+    <string name="cigarette_allow">cigarette allowance: \n 1</string>
+    <string name="cigarette_allow_extra">extra cigarette</string>
+    <string name="allow_num_cig">2</string>
+
+    <!-- Stage Three Screen -->
+    <string name="stage3">STAGE 3</string>
+
+    <!-- Stage Four Screen -->
+    <string name="stage4">STAGE 4</string>
+    <string name="endTherapy">END THERAPY</string>
+
+    <!-- Info Screen -->
+    <string name="thraptutorial">THERAPY TUTORIAL</string>
+    <string name="about">ABOUT THIS APP</string>
+    <string name="upgrade">UPGRADE TO REMOVE ADS</string>
+    <string name="termsncondition"><u>TERMS &amp; CONDITION FOR USING THE APP</u></string>
+
+    <!-- Share progress screen -->
+    <string name="shareprogress">SHARE PROGRESS</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="twitter">TWITTER</string>
+    <string name="insta">INSTAGRAM</string>
+
+    <!-- Warning Screen -->
+    <string name="warning">WARNING!</string>
+
+    <!-- Congratulation Screen -->
+    <string name="cogrates">CONGRATULATION!</string>
+    <string name="done">DONE</string>
+
+    <!-- Live Smoke Free Screen -->
+    <string name="livesmokefree">LIVE SMOKE-FREE</string>
+    <string name="tell_friend">TELL A FRIEND ABOUT</string>
+    <string name="complete">COMPLETE</string>
+
+    <!-- Settings Screen -->
+    <string name="settings">SETTINGS</string>
+    <string name="language">LANGUAGE</string>
+    <string name="bgcolor">BACKGROUND COLOR</string>
+    <string name="removeads">REMOVE ADS</string>
+    <string name="back">BACK</string>
+    <string name="bybasicstudio">BY BASICKS STUDIO</string>
+
+    <!-- Language Screen -->
+    <string name="english">ENGLISH</string>
+    <string name="espanol">ESPANOL</string>
+    <string name="francais">FRANCAIS</string>
+
+    <!-- Background Scrren -->
+    <string name="background">BACKGROUND</string>
+    <string name="aquamarine">AQUAMARINE</string>
+    <string name="alexandrite">ALEXANDRITE</string>
+    <string name="amethyst">AMETHYST</string>
+
+    <!-- Help Screen -->
+    <string name="help">HELP</string>
+    <string name="tutorial">TUTORIAL</string>
+    <string name="aboutapp">ABOUT THE APP</string>
+    <string name="contactus">CONTACT US</string>
+    <string name="sharewithfriends">SHARE WITH FRIENDS</string>
+
+    <!-- Contact Us Screeen -->
+    <string name="visitwebsite">VISIT OUR WEBSITE</string>
+    <string name="findonfb">FIND US ON FACEBOOK</string>
+    <string name="emailus">EMAIL US</string>
+
+    <!-- Statistics Screen -->
+    <!--  -->
+
+
+    <!-- Stage One Statastic screen -->
+    <string name="stage_one_stat">STAGE 1 STATISTICS</string>
+    <string name="at_the_begining_stat">At the beginning Smoke TherApp  you smoke an average of</string>
+    <string name="avg_cig_num">16</string>
+    <string name="cig_per_day">cigarettes per day</string>
+    <string name="if_u_follow_stat">If you follow strictly the therapy throughout you will be enjoying your smokefree lifestyle in about:</string>
+    <string name="therap_num_days">35</string>
+    <string name="days">days</string>
+
+    <!-- Stage two statistics -->
+    <string name="stage_two_stat">STAGE 2 STATISTICS</string>
+    <string name="progress">PROGRESS:</string>
+    <string name="less_nicotine_in_body">less nicotine in your body from the beginning of the therapy</string>
+    <string name="stage_two_has_taken">STAGE 2 has taken you a total of</string>
+    <string name="days_to_complete_num">10</string>
+    <string name="days_to_comp">days to complete</string>
+
+    <!-- Stage Three Statistics -->
+    <string name="stage_three_stat">STAGE 3 STATISTICS</string>
+    <string name="stage_three_has_taken">STAGE 3 has taken you a total of</string>
+
+    <!-- Complete Statistics -->
+    <string name="complete_stat">COMPLETE STATISTICS</string>
+    <string name="share_result">SHARE RESULT</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome">WELCOME</string>
+    <string name="proceedtotutorial">PROCEED TO TUTORIAL</string>
+
+    <!-- Stage One Statistic Screen -->
+    <string name="stat_stage_one">STAGE 1 Statistics</string>
+    <string name="share_stat">SHARE STATS</string>
+    <string name="atthebeginingapp"></string>
+
+    <!-- Webview Screens -->
+
+
+    <!-- Agreement -->
+    <string name="agreementtxt">
+<![CDATA[
+    	<html>
+    
+            <body> 
+            <p  align="justify">
+			<font color="white">
+IT IS VERY IMPORTANT THAT YOU SUBMIT AS 
+ACCURATE AS POSSIBLE INFORMATION IN ORDER TO 
+GAIN POSITIVE RESULT SOONER RATHER THAN LATER
+IT IS VERY IMPORTANT THAT YOU SUBMIT AS 
+ACCURATE AS POSSIBLE INFORMATION IN ORDER TO 
+GAIN POSITIVE RESULT SOONER RATHER THAN LATER
+IT IS VERY IMPORTANT THAT YOU SUBMIT AS 
+ACCURATE AS POSSIBLE INFORMATION IN ORDER TO 
+GAIN POSITIVE RESULT SOONER RATHER THAN LATER
+IT IS VERY IMPORTANT THAT YOU SUBMIT AS 
+ACCURATE AS POSSIBLE INFORMATION IN ORDER TO 
+GAIN POSITIVE RESULT SOONER RATHER THAN LATER
+IT IS VERY IMPORTANT THAT YOU SUBMIT AS 
+ACCURATE AS POSSIBLE INFORMATION IN ORDER TO 
+GAIN POSITIVE RESULT SOONER RATHER THAN LATER
+IT IS VERY IMPORTANT THAT YOU SUBMIT AS 
+ACCURATE AS POSSIBLE INFORMATION IN ORDER TO 
+GAIN POSITIVE RESULT SOONER RATHER THAN LATER
+        </font> 
+			</p>
+            </body>
+    
+   </html>
+	]]>
+    </string>
+
+    <!-- Almost There -->
+    <string name="almosttheretxt">
+<![CDATA[
+    <html>
+    
+            <body> 
+            <p  align="justify">
+			<font color="white">
+	You are about to enter \"STAGE 1\" which is designed to study your smoking habits for 5 full days.</br>
+	<u>It is highly recommended</u> to begin the stage with the new day for achieving clear results throughout! After completing \"STAGE 1\" you will be shown info on where you stand as a smoker and how long it is likely to take you to complete the whole therapy based on the results you have shown.</br>
+	\"STAGE 2\" is when the actual program begins so it is also highly recommended that you start it with the beginning of next day! From that point on the app will be taking care of your smoking habit until the end!
+            </font> 
+			</p>
+            </body>
+    
+   </html>
+	]]>
+    </string>
+    <string name="congratulation">
+<![CDATA[
+    <html>
+    
+            <body> 
+            <p  align="justify">
+			<font color="white">
+    You have reached the end of our journey together. Do you want to know a little secret? The magic behind the whole process is you and your willingness to change for better! We were here as your personal guide only.
+
+	Finally, we hope you feel fully satisfied and happy with the results you have gained throughout the therapy!
+
+	Now enjoy one last cigarette before you step into your new smoke-free lifestyle!
+
+	Team Basicks
+                </font> 
+			</p>
+            </body>
+    
+   </html>
+	]]>
+    </string>
+    <!-- Congratulation -->
+
+
+    <!-- About The app -->
+    <string name="abouttheapptxt">
+<![CDATA[
+    <html>
+    
+            <body> 
+            <p  align="justify">
+			<font color="white">
+   After a few months of studies, research, health stats collection and anonymous questionnaires we came up with a method, that helps people quit smoking without the need of a \"nicotine replacement\".
+The mixture of technology, mathematics, our own studies and ideas brought this App to life. 
+We truly believe in the positive results of our project and it\'s simply a matter of time you start believing too! Help us help other people get back to their smoke-free lifestyle by sharing and spreading the word about Smoke TherApp within your social networks.
+We hope that with your help we could set the beginning of something revolutionary that will assist millions of people throughout their journey to their healthier lifestyle. 
+Thank you!
+                </font> 
+			</p>
+            </body>
+    
+   </html>
+	]]>
+    </string>
+    
+    
+    <string name="tutorialtxt">
+        <![CDATA[
+    <html>
+    
+            <body> 
+            <p  align="justify">
+			<font color="white">
+   	Smoke TherApp is the revolutionary quit smoking self-therapy brought to you by the young and ambitions team of \"Basicks studio\".
+	If you are finally ready to make that step ahead and change your lifestyle to better then look no further!
+	We all know that smoking is both addiction and habit at the same time, right? At some point in every smoker\'s life cigarettes become that stress relief tool which is not always the case! It is all about the individual mindset. Our team has designed this app in a different way so it acts as your personal therapist! Please take a minute to get familiar with how this whole program works.
+	Fully committing to the therapy guarantees 100% success towards your smoke free lifestyle!
+                </font> 
+			</p>
+            </body>
+    
+   </html>
+	]]>
+    </string>
+    
+    <string name="warningtxt">
+        <![CDATA[
+    <html>
+    
+            <body> 
+            <p  align="justify">
+			<font color="white">
+   		You have reached your daily cigarette allowance!</br></br>
+
+		If you are still experiencing bad carvings it means you are not ready to proceed any further at the time being!</br></br>
+
+		Smoking this extra cigarette over your daily allowance will extend your therapy with an extra day.
+                </font> 
+			</p>
+            </body>
+    
+   </html>
+	]]>
+    </string>
+    
+
+</resources>

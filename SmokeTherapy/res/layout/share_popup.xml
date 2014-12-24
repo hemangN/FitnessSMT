@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"  
+    android:gravity="center"  
+    android:background="@drawable/popup_box"
+    >
+    
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"  >
+    <Button 
+        android:id="@+id/btn_fb_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fb_icon_up"
+        android:layout_marginRight="10dp"/>
+     <Button 
+        android:id="@+id/btn_twitter_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tw_icon_up"
+        android:layout_marginRight="10dp"/>
+     
+    <Button 
+        android:id="@+id/btn_google_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/g_plush_icon_up"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="10dp"/>
+    <Button 
+        android:id="@+id/btn_insta_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/instag_icon_up"
+        android:layout_marginTop="1dp"/>
+	</LinearLayout>
+	
+    <Button
+        android:id="@+id/btn_cancel_share"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/popup_btnfocus"
+        android:text="Cancel"
+        android:textColor="#333333"
+        android:textSize="15sp" >
+    </Button>
+</LinearLayout>

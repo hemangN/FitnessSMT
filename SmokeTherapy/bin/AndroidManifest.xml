@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smoketherapy"
+    android:installLocation="auto"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name="com.smoketherapy.Application"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/smoke_icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity
+            android:name="com.smoketherapy.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.smoketherapy.info.Info"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.smoketherapy.options.Options" >
+            android:screenOrientation="portrait"
+        </activity>
+        <activity
+            android:name="com.smoketherapy.personalinfo.PersonalInfo_gender"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.personalinfo.PersonalInfo_SleepHours"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.personalinfo.PersonalInfo_WakeUpTime"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.personalinfo.Confirm_StageOne_Entry"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.stages.BeginStageOne"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.stages.StageOne"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.stages.BeginStageTwo"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.stages.StageTwo"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.stages.StageThree"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.stages.StageFour"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.stages.Warning"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.stages.Congratulation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.stats.CompleteStatistics"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.stats.CpCompStat"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.stats.Statistics"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.stats.stage_one_statistics"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.stats.stage_two_statistic"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.stats.stage_three_statistics"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.help.AboutTheApp"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.help.ContactUs"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.help.Help"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.help.ShareWithFriends"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.Welcome"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.settings.Background"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.settings.Language"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.settings.Settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.Agreement"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smoketherapy.personalinfo.SelectSleepTime"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <receiver android:name="com.smoketherapy.alarmmanager.AlarmReceiver" />
+
+        <service android:name=".db.ScheduleNotificationService" >
+        </service>
+        
+      
+        <receiver
+            android:name=".alarmmanager.BootReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        
+        <receiver 
+            android:name="com.smoketherapy.alarmmanager.TimeZoneChangedReceiver"
+            android:enabled="true"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        
+        <service android:name=".alarmmanager.ScheduleCheckService"></service>
+        <service android:name=".alarmmanager.SmokeTrackerUpdateService"></service>
+        <service android:name="com.smoketherapy.alarmmanager.ReScheduleService"></service>
+       
+        <!-- Twitter -->
+         <activity
+            android:name="com.tweet.LoginActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="demotwitterlogin"
+                    android:scheme="x-demo-twitter" />
+            </intent-filter>
+        </activity>
+        <!-- Twitter ends -->
+        
+        <!-- Facebook -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/appid" />
+
+    	<activity
+    	    android:name="com.facebook.LoginActivity"
+    	    android:label="@string/app_name"
+    	    android:screenOrientation="portrait"
+    	    android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    	
+    	<activity android:name="com.fb.FbHelper"
+            	  android:screenOrientation="portrait"
+            	  android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+    	<activity android:name="com.fb.FbShareHelperActivity"
+            	  android:screenOrientation="portrait"
+            	  android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+        
+        <!-- Facebook Ends -->
+    </application>
+
+</manifest>

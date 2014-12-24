@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lyt_appback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_back"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="10" >
+
+    <TextView
+        android:id="@+id/txt_stage2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/stage2"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/img_stop_cigge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cigarette_stop"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/lyt_tap_extra"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/lyt_tap_selector"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/txt_allow_cig_extra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ciggarete"
+                android:gravity="center"
+                android:text="@string/cigarette_allow_extra"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt_tap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/lyt_tap_selector"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/txt_allow_cig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ciggarete"
+                android:gravity="center"
+                android:text="@string/cigarette_allow"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+  
+
+    <Button
+        android:id="@+id/btn_withdraw_cigge"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_selector"
+        android:text="@string/withdraw_cigge"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_stat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_selector"
+        android:text="@string/statistics"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_settings"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_selector"
+        android:text="@string/action_settings"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_help"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_selector"
+        android:text="@string/help"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/img_prog"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/progress_1" 
+        android:layout_gravity="bottom"/>
+
+</LinearLayout>
